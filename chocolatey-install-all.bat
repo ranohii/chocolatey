@@ -4,6 +4,6 @@ powershell Set-ExecutionPolicy Restricted
  
 set PATH=%PATH%;C:\Chocolatey\bin;
  
-call cinst .\packages.config
+call cinst -y .\packages.config
  
 pause
